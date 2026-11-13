@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #1d4f7a;
+  --color-primary-hover: #163d5f;
+  --color-page: #f5f6f4;
+  --color-surface: #ffffff;
+  --color-ink: #1b2129;
+  --color-muted: #566170;
+  --color-line: #dde1e5;
+
+  --font-sans: 'Kantumruy Pro', 'Noto Sans Khmer', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
